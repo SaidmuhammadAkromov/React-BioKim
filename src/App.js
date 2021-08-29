@@ -5,6 +5,11 @@ function App() {
   return (
     <div className='app'>
       <Header />
+
+      <main>
+        <div className='container'>
+        </div>
+      </main>
     </div>
   )
 }

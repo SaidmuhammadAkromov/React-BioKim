@@ -1,3 +1,20 @@
 html {
-    background-color: #E5E5E5;
+    background-color: var(--silver);
+}
+* {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.container {
+    width: 100%;
+    margin: 0 80px;
+}
+:root {
+    --blue: #2680EB;
+    --black: #343434;
+    --silver: #E5E5E5;
+}
+main {
+    background-color: red;
 }

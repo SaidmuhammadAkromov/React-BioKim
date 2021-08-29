@@ -1,0 +1,44 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.container {
+    width: 100%;
+    display: flex;
+    margin: 0 80px;
+    justify-content: space-between;
+}
+.settings, .menu, .categories, .settings__langs {
+    display: flex;
+    align-items: center;
+}
+.settings {
+    gap: 30px;
+}
+.settings > a:hover {
+    color: var(--blue);
+}
+.menu {
+    gap: 80px;
+}
+.categories {
+    gap: 40px;
+}
+.category__link:hover{
+    color: var(--blue);
+}
+.settings__langs {
+    gap: 5px;
+}
+.lang_active {
+    color: var(--blue);
+}
+.lang:hover {
+    color: var(--blue);
+}
